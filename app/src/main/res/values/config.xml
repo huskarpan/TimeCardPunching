@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_db_name">timecardpuching.db</string>
+    <integer name="config_db_version">1</integer>
+    <!--表实体类列表，用,分隔-->
+    <string name="config_db_entity_class_names">com.huskarpan.timecardpunching.entities.PunchingInfoDetail,com.huskarpan.timecardpunching.entities.PunchingInfoRecord</string>
+</resources>

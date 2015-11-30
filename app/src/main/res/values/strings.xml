@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">小猪打卡</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="delete">删除</string>
+    <string name="go_back">返回</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="punching_list_title">小猪打卡</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="punching_status">状态：</string>
+    <string name="punching_total_hours">工作总时间：</string>
+    <string name="punching_status_on_duty">正在上班</string>
+    <string name="punching_status_off_duty">未工作</string>
+    <string name="punching_type_on_duty">上班</string>
+    <string name="punching_type_off_duty">下班</string>
+    <string name="punching_detail_time_format">yyyy年MM月dd日 HH时mm分ss秒</string>
+    <string name="punching_record_date_format">yyyy/MM/dd</string>
+</resources>

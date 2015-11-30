@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/ib_left"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/abc_ic_ab_back_mtrl_am_alpha"/>
+    <TextView android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ib_left"
+        android:textSize="15sp"
+        android:text="返回"
+        />
+    <TextView android:id="@+id/tv_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="每天刷刷刷"/>
+    <TextView android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ib_right"
+        android:textSize="15sp"
+        android:text="更多"/>
+    <ImageButton android:id="@+id/ib_right"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        />
+</RelativeLayout>

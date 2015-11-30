@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textSize" format="reference|dimension" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="barBackground" format="reference" />
+    <attr name="leftText" format="reference|string" />
+    <attr name="middleText" format="reference|string" />
+    <attr name="rightText" format="reference|string" />
+    <attr name="leftButtonIcon" format="reference"/>
+    <attr name="rightButtonIcon" format="reference" />
+    <declare-styleable name="TopBar">
+        <attr name="textSize"  />
+        <attr name="textColor"  />
+        <attr name="barBackground"  />
+        <attr name="leftText"  />
+        <attr name="middleText"  />
+        <attr name="rightText"  />
+        <attr name="leftButtonIcon" />
+        <attr name="rightButtonIcon" />
+    </declare-styleable>
+</resources>

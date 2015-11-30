@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowAnimationStyle">@style/WindowAnimation</item>-->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorControlHighlight">@color/color_control_highlight</item>
+        <item name="android:listDivider">@drawable/divider</item>
+    </style>
+    <!--<style name="WindowAnimation" parent="android:Animation.Activity">-->
+        <!--<item name="android:activityOpenEnterAnimation">@anim/anim_enter</item>-->
+        <!--<item name="android:activityOpenExitAnimation">@anim/anim_exit</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/anim_back_enter</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@anim/anim_back_exit</item>-->
+    <!--</style>-->
+    <style name="BaseAppTheme" parent="AppTheme"></style>
+</resources>
